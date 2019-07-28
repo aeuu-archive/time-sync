@@ -1,0 +1,31 @@
+# +-------------------------+
+# |  TIME  SYNCHRONIZATION  |
+# |         v 1.0.0         |
+# |       by arctfoxx       |
+# +-------------------------+
+
+# The plugin will automatically generate a config file for every world
+# Between multiple worlds, the time in each will not be synchronized.
+
+# To synchronize a world with another, use the sync property and set it to be the world to sync to.
+# world-demo:
+#   sync: world
+# The sync property should be present in every world configuration.
+# If the sync property is to anything other than "none", the day and night properties are ignored.
+
+# To disable a world from being modified by this plugin, use the ignore property.
+# world-demo:
+#   ignore: true
+# This property is optional and defaults to false.
+
+# +-----------------+
+# |  CONFIGURATION  |
+# +-----------------+
+
+# This is the default world in the game.
+# The day and night properties represent how long a day and night are in seconds.
+# This is defaulted to 15 minutes each.
+world:
+  day: 900
+  night: 900
+  sync: none

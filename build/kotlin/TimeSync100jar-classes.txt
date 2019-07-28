@@ -1,0 +1,1 @@
+/Users/brianshao/Downloads/TimeSync/build/classes/kotlin/main/io/arct/timesync/TimeSync$hook$1.class:/Users/brianshao/Downloads/TimeSync/build/classes/kotlin/main/io/arct/timesync/TimeSync.class:/Users/brianshao/Downloads/TimeSync/build/classes/kotlin/main/io/arct/timesync/commands/TSync.class

@@ -1,0 +1,19 @@
+name: 'TimeSync'
+description: 'Sync time between worlds and modify length of time every day/night'
+version: '1.0.0'
+main: 'io.arct.timesync.TimeSync'
+
+commands:
+  tsync:
+    description: 'View and modify TimeSync preferences'
+    permission: 'timesync.tsync'
+
+permissions:
+  timesync.*:
+    description: 'All TimeSync permissions'
+    children:
+      - 'timesync.tsync'
+
+  timesync.tsync:
+    description: 'Allows usage of /tsync'
+    default: 'op'
